@@ -1,4 +1,4 @@
-# Artist search
+# Artist on Spotify
 discord botからspotify上にあるアーティストの情報を取得
 
 取得できる情報
