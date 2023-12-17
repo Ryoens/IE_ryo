@@ -1,6 +1,5 @@
 from discord.ext import commands
 
-
 class Ping(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
@@ -8,7 +7,6 @@ class Ping(commands.Cog):
     @commands.command()
     async def ping(self,ctx):
         await ctx.send("pong!")
-
 
 async def setup(bot):
     await bot.add_cog(Ping(bot))

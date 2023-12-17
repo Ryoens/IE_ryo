@@ -1,7 +1,6 @@
 from discord.ext import commands, tasks
 from mylib.constant import REMINDER_CHANNEL_ID
 
-
 class Reminder(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
